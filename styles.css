@@ -2,8 +2,36 @@ body {
     background-color: black
 }
 
+@font-face {
+    font-family: minecraftRegular;
+    src: url(resources/fonts/minecraftRegular.ttf);
+}
+
+@font-face {
+    font-family: determination;
+    src: url(resources/fonts/determination-extended.ttf);
+}
+
 h1,h2,h3,p {
     text-align: center;
     color: white;
+    font-family: minecraftRegular;
 }
 
+.courseslist {
+    color:white;
+    h1,h2,h3,p {
+        text-align: left;
+        color: white;
+        font-family: determination;
+    }
+
+}
+
+.professor-name {
+    color:yellow
+}
+
+.notbold {
+    font-weight:lighter;
+}
