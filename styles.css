@@ -25,7 +25,6 @@ h1,h2,h3,p {
         color: white;
         font-family: determination;
     }
-
 }
 
 .professor-name {
@@ -34,4 +33,24 @@ h1,h2,h3,p {
 
 .notbold {
     font-weight:lighter;
+}
+
+.materialstyling {
+    h1,h2,h3,p {
+        text-align: center;
+        color: white;
+        font-family: determination;
+    }
+}
+
+.linkdarkcolor {
+    color: #14213d
+}
+
+.programmingiipage {
+    background-image: url(resources/images/beambackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
